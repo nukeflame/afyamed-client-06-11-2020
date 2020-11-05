@@ -1,0 +1,45 @@
+// {
+//   "manifest_version": 2,
+
+//   "name": "AfyaMed Pro",
+//   "description": "AfyaMed Pro is a client system application for managing hospital data and information on patients and hospital niche",
+//   "version": "1.0",
+
+//   "browser_action": {
+//     "default_popup": "index.html",
+//     "default_title": "AfyaMed Pro Client"
+//   },
+
+//   "icons": {
+//     "16": "./assets/img/favicon.ico",
+//     "48": "./assets/img/favicon.ico",
+//     "128": "./assets/img/favicon.ico"
+//   },
+
+//   "content_security_policy": "script-src 'self' ' '; object-src 'self",
+//   "permissions": []
+// }
+
+{
+  "name": "MedicentreV3",
+  "short_name": "Medicentre",
+  "description": "MedicentreV3 HMIS By Hanmak Technologies Ltd.",
+  "icons": [
+    { "src": "/images/hospital128x128.png", "sizes": "128x128" },
+    { "src": "/images/hospital144x144.png", "sizes": "144x144" },
+    { "src": "/images/hospital192x192.png", "sizes": "192x192" },
+    { "src": "/images/hospital256x256.png", "sizes": "256x256" },
+    { "src": "/images/hospital512x512.png", "sizes": "512x512" }
+  ],
+  "Scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#8fcccc",
+  "theme_color": "#2a2e2e",
+  "chrome_ui_overrides": {
+    "bookmarks_ui": {
+      "remove_button": "true",
+      "remove_bookmark_shortcut": "true"
+    }
+  }
+}

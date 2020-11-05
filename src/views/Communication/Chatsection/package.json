@@ -1,0 +1,6 @@
+{
+  "name": "Chatsection",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Chatsection.js"
+}

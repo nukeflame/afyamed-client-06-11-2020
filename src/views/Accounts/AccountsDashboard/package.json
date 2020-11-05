@@ -1,0 +1,6 @@
+{
+  "name": "AccountsDashboard",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AccountsDashboard.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "GoodsReceivedNotes",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./GoodsReceivedNotes.js"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "AfyaMedV1.2",
+  "short_name": "AfyaMed",
+  "description": "AfyaMedV1.2 HMIS By Epsotech Solutions.",
+  "icons": [
+    { "src": "/images/hospital128x128.png", "sizes": "128x128" },
+    { "src": "/images/hospital144x144.png", "sizes": "144x144" },
+    { "src": "/images/hospital192x192.png", "sizes": "192x192" },
+    { "src": "/images/hospital256x256.png", "sizes": "256x256" },
+    { "src": "/images/hospital512x512.png", "sizes": "512x512" }
+  ],
+  "Scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#8fcccc",
+  "theme_color": "#2a2e2e",
+  "chrome_ui_overrides": {
+    "bookmarks_ui": {
+      "remove_button": "true",
+      "remove_bookmark_shortcut": "true"
+    }
+  }
+}

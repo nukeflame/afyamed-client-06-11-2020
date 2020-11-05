@@ -1,0 +1,6 @@
+{
+  "name": "StockLocations",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./StockLocations.js"
+}

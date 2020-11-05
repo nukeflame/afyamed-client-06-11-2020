@@ -1,0 +1,6 @@
+{
+  "name": "StockTransfers",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./StockTransfers.js"
+}

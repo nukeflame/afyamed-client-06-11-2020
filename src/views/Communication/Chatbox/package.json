@@ -1,0 +1,6 @@
+{
+  "name": "Chatbox",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Chatbox.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Imaging",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Imaging.js"
+}

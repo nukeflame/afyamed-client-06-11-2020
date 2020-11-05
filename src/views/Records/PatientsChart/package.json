@@ -1,0 +1,6 @@
+{
+  "name": "PatientsChart",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PatientsChart.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "StockPrepItems",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./StockPrepItems.js"
+}

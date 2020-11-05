@@ -1,0 +1,246 @@
+// Variable overrides
+// .right-sidebar {
+//   z-index: 1;
+//   width: 250px;
+//   color: #2f353a;
+//   background: #fff;
+//   border-left: 1px solid #c8ced3;
+// }
+
+//   .nav-tabs {
+//     border-color: $border-color;
+//     .nav-link {
+//       padding: $aside-menu-nav-padding-y $aside-menu-nav-padding-x;
+//       color: $body-color;
+//       border-top: 0;
+//       @include border-radius(0);
+//       &.active {
+//         color: theme-color("primary");
+//         border-right-color: $border-color;
+//         border-left-color: $border-color;
+//       }
+//     }
+//     .nav-item:first-child {
+//       .nav-link {
+//         border-left: 0;
+//       }
+//     }
+//   }
+
+//   .tab-content {
+//     position: relative;
+//     overflow-x: hidden;
+//     overflow-y: auto;
+//     border: 0;
+//     border-top: 1px solid $border-color;
+//     -ms-overflow-style: -ms-autohiding-scrollbar;
+
+//     &::-webkit-scrollbar {
+//       width: 10px;
+//       margin-left: -10px;
+//       appearance: none;
+//     }
+
+//     // &::-webkit-scrollbar-button {    }
+
+//     &::-webkit-scrollbar-track {
+//       background-color: lighten($aside-menu-bg, 5%);
+//       border-right: 1px solid darken($aside-menu-bg, 5%);
+//       border-left: 1px solid darken($aside-menu-bg, 5%);
+//     }
+
+//     // &::-webkit-scrollbar-track-piece {    }
+
+//     &::-webkit-scrollbar-thumb {
+//       height: 50px;
+//       background-color: darken($aside-menu-bg, 10%);
+//       background-clip: content-box;
+//       border-color: transparent;
+//       border-style: solid;
+//       border-width: 1px 2px;
+//     }
+
+//     .tab-pane {
+//       padding: 0;
+//     }
+//   }
+// }
+//Roboto
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../assets/fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: url("../assets/fonts/Roboto/Roboto-ThinItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url("../assets/fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("../assets/fonts/Roboto/Roboto-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src: url("../assets/fonts/Roboto/Roboto-BlackItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../assets/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src: url("../assets/fonts/Roboto/Roboto-MediumItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+//Raleway
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../assets/fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("../assets/fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Thin";
+  src: url("../assets/fonts/Raleway/Raleway-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-ThinItalic";
+  src: url("../assets/fonts/Raleway/Raleway-ThinItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-BoldItalic";
+  src: url("../assets/fonts/Raleway/Raleway-BoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Black";
+  src: url("../assets//fonts/Raleway/Raleway-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-BlackItalic";
+  src: url("../assets//fonts/Raleway/Raleway-BlackItalic.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url("../assets/fonts/Raleway/Raleway-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-MediumItalic";
+  src: url("../assets/fonts/Raleway/Raleway-MediumItalic.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Light";
+  src: url("../assets/fonts/Raleway/Raleway-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-LightItalic";
+  src: url("../assets/fonts/Raleway/Raleway-LightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url("../assets/fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-SemiBoldItalic";
+  src: url("../assets/fonts/Raleway/Raleway-SemiBoldItalic.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Raleway-ExtraBold";
+  src: url("../assets/fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway-ExtraBoldItalic";
+  src: url("../assets/fonts/Raleway/Raleway-ExtraBoldItalic.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+:root {
+  --bg-blue-color: #3f51b5;
+  --bg-light-blue: #2196f314;
+  --dip-blue-color: #3f51b5;
+  --white-color: #fff;
+}

@@ -1,0 +1,5 @@
+{
+    "name": "AfyaMed V1",
+    "script": "laravel-echo-server start --config='AfyaMedServer.json'",
+    "args": "start"
+}

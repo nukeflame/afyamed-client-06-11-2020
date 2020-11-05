@@ -1,0 +1,6 @@
+{
+  "name": "Consultations",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Consultations.js"
+}
